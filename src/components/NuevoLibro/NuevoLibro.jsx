@@ -28,7 +28,7 @@ export default function NuevoLibro({
 
   const handleInsert = async (e) => {
     e.preventDefault();
-    const confirmed = window.confirm('¿Todos los datos son corrects?');
+    const confirmed = window.confirm('¿Todos los datos son correctos?');
     if (confirmed) {
       console.log(
         JSON.stringify({
