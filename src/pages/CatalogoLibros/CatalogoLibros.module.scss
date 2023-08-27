@@ -1,0 +1,20 @@
+.table-container {
+    max-height: 100px; /* Ajusta la altura máxima de la tabla */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+  }
+  
+  .thelement {
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    color: white;
+    z-index: 1; /* Asegura que el encabezado esté por encima del contenido al hacer scroll */
+  }
+
+  .nuevoLibro{
+    max-height: 700px;
+    position: sticky;
+    top: 0;
+    
+  }
+  
